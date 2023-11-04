@@ -58,7 +58,7 @@
     
     ```bash
     docker build -t netflix .
-    docker run -d --name netflix -p 8081:80 netflix:latest
+    docker run -d -p 8081:80 netflix:latest //expose port 8082 //if port 8081 isnt showing content of apikey.
     
     #to delete
     docker stop <containerid>
